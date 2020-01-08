@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.0/css/all.css"
+        integrity=""
+        crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <title>sign in/sign out</title>
+    </head>
+    <body>
+        <div class="container" id="container">
+            <div class="form-container sign-up-container">
+                <form action="#">
+                    <h1>Have A Great Day</h1>
+                </form>
+            </div>
+            <div class="form-container sign-in-container">
+                <form action="index.html">
+                    <h1>Sign In</h1>
+                    <!-- <span>account</span> -->
+                    <input type="email" placeholder="Email" />
+                    <input type="password" placeholder="Password" />
+
+                    <!-- <a href="index.html">Forgot your password?</a> -->
+                    <a id="myLink" href="#" onclick="myFunction();">Forgot Your Password</a>
+
+
+                    <button>Sign In</button>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                        <h1>Welcome Back!</h1>
+                        <p>To keep connected with us please login with your personal info</p>
+                        <button class="ghost" id="signIn">Sign In</button>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                        <h1>Time</h1>
+                        <h1 id="ate"></h1>
+                        <h1 id="clock"></h1>
+                        
+                        <button class="ghost" id="signUp">Swipe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>
+                 <i class="fa fa-heart"></i> by
+                <a target="_blank" href="">EKC</a>
+               
+                <a target="_blank" href="">D.O.G</a>.
+            </p>
+        </footer>
+        
+        <script src="main.js"></script>
+    </body>
+</html>
